@@ -126,8 +126,13 @@
     "watch-web": "npx webpack-cli --config extension-browser.webpack.config --mode none --watch --info-verbosity verbose"
   },
   "dependencies": {
+<<<<<< snyk-upgrade-c7c5276f3d28b917d04a41a89286b35a
+    "@vscode/extension-telemetry": "^0.9.0",
+    "vscode-uri": "^3.0.8"
+======
     "@vscode/extension-telemetry": "^0.9.6",
     "vscode-uri": "^3.0.6"
+>>>>>> main
   },
   "repository": {
     "type": "git",
